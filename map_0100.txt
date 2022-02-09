@@ -1,0 +1,15 @@
+# Sample input file
+# Format described in corresponding specs
+# V W1 C1 W2 C2 W3 C3...
+# V is the name of the vertex
+# W is an neighboring vertex
+# C will always be 0 < C < 100
+# X is the name of the target vertex
+A B 50 E 95
+B A 50 C 75
+C B 75 D 88 E 12
+D C 88 F 62 G 37
+E A 95 C 12 F 42 H 99
+F E 42 D 62 G 59
+G D 37 F 59 H 12
+H E 99 G 12 X 12
